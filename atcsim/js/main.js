@@ -555,28 +555,28 @@ function initChart(chartItems) {
         // Parallax
         if ( document.querySelector('[data-parallax]') ) {
             var parallax_js = document.createElement("script");
-            parallax_js.src = '/assets/plugins/parallax/parallax.js';
+            parallax_js.src = 'https://cdn.jsdelivr.net/gh/vFlightDev/static@master/atcsim/plugins/parallax/parallax.js';
             document.body.insertBefore(parallax_js, _mainJS);
         }
 
         // Countdown
         if ( document.querySelector('[data-countdown]') ) {
             var countdown_js = document.createElement("script");
-            countdown_js.src = '/assets/plugins/countdown/jquery.countdown.min.js';
+            countdown_js.src = 'https://cdn.jsdelivr.net/gh/vFlightDev/static@master/atcsim/plugins/countdown/jquery.countdown.min.js';
             document.body.insertBefore(countdown_js, _mainJS);
         }
 
         // Scrollbar
         if ( document.querySelector('[data-scrollbar]') ) {
             var nicescroll_js = document.createElement("script");
-            nicescroll_js.src = '/assets/plugins/scrollbar/jquery.nicescroll.min.js';
+            nicescroll_js.src = 'https://cdn.jsdelivr.net/gh/vFlightDev/static@master/atcsim/plugins/scrollbar/jquery.nicescroll.min.js';
             document.body.insertBefore(nicescroll_js, _mainJS);
         }
 
         // Carousel
         if ( (document.querySelector('[data-carousel="owl-carousel"]')) || (document.getElementsByClassName('owl-carousel')) ) {
             var owl_carousel_js = document.createElement("script");
-            owl_carousel_js.src = '/assets/plugins/owl.carousel/owl.carousel.min.js';
+            owl_carousel_js.src = 'https://cdn.jsdelivr.net/gh/vFlightDev/static@master/atcsim/plugins/owl.carousel/owl.carousel.min.js';
             document.body.insertBefore( owl_carousel_js, _mainJS);
         }
 
